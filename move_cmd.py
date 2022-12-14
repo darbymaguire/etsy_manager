@@ -1,10 +1,10 @@
-# Move order from one status to the next
+# Move Command ("mv")
+# Moves an order from one status to the next
 
 # Usage:
-# Enter "mv" command followed by the Order name
+# Enter "mv" command followed by the order ID
 # Without arguments, the mv command will move the order up one status (ie from "Model Made" to "Sliced")
 # Optionally the user can enter arguments after the mv command:
-# - C (order goes to "Conversation" status, this should never really happen though)
 # - O (order goes to "ordered" status)
 # - MM (order goes to "model made" status)
 # - S (order goes to "sliced" status)
